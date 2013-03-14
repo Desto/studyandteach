@@ -9,8 +9,8 @@ Heavily based on Miguel Grinbergs amazing Flask tutorial.
 www.miguelgrinberg.com
 
 TODOS:
-Database table optimization
-Unit testing
-Facebook & Twitter login
-CSS
-RESTful API
+-Database table optimization
+-Unit testing
+-Facebook & Twitter login
+-CSS
+-RESTful API
