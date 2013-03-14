@@ -1,3 +1,9 @@
+import os
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
+SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository') #Used for now, later upgade to Alembic
+
 CSRF_ENABLED = True
 SECRET_KEY = 'hilipatipippanjooniinkyll' #CHANGE THIS TO RANDOM STRING IN PRODUCTION !!!!!
 
