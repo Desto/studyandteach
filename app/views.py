@@ -32,6 +32,12 @@ def index():
         user = user,
         posts = posts)
 
+# Login, after login and logout views
+#
+#
+#
+# Currently only OpenID implemented, will be replaced/complemented with fb/twitter login
+
 @app.route('/login', methods = ['GET', 'POST'])
 @oid.loginhandler
 def login():
