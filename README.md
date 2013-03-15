@@ -11,7 +11,6 @@ www.miguelgrinberg.com
 TODOS:
 -------------
 -Database table optimization
--Unit testing
--Facebook & Twitter login
--CSS
+-Facebook & Twitter login with Flask-Social
+-Frontend, especially CSS :)
 -RESTful API
