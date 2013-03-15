@@ -9,7 +9,7 @@ Backend is built using Flask, required add-ons include atleast Flask-SQLAlchemy,
 
 TODOS:
 -------------
--Database table optimization
--Facebook & Twitter login with Flask-Social
--Frontend, especially CSS :)
--RESTful API
+- Database table optimization
+- Facebook & Twitter login with Flask-Social
+- Frontend, especially CSS :)
+- RESTful API
