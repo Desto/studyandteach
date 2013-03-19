@@ -1,3 +1,9 @@
+#
+# Configurations
+# Now only OpenID implemented
+# TODO: FB and Twitter logins
+#
+
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
